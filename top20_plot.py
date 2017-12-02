@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-with open("top20.txt") as csvfile:
+with open("output/top_20.txt") as csvfile:
     wordlist = []
     word_count = []
     reader = csv.reader(csvfile,delimiter=":")
