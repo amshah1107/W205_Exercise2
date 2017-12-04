@@ -32,6 +32,7 @@ output | This folder has the results from running the main.sh file
 screenshots | This folder has the screenshots from this exercise  
 top20_plot.py | Python program to plot top 20 words. This program has been run on windows python.  
 top_20.py | Python program to query top 20 words from the database  
+Plot.png | Bar chart for top 20 words  
 
 # Run Instructions   
 
