@@ -6,7 +6,7 @@ def displayAllrecords(cur,k,l):
    if (k > l) :
       print "The first digit should be less than the second"
       return
-   cur.execute("SELECT word, count from tweetwordcount where count >= %s and count <= %s",(k,l))
+   cur.execute("SELECT word, count from tweetwordcount where count >= %s and count <= %s ORDER BY count DESC",(k,l))
    records = cur.fetchall()
    if len(records) == 0:
       print "No records in the database"
